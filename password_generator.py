@@ -14,7 +14,7 @@ def getLength():
         elif isInt(prompt):
             print('Please enter a valid integer digit')
             continue
-        elif int(prompt) < 8 or int(prompt) > 30:
+        elif int(prompt) < 8 or int(prompt) > 33:
             print('Password length has to be between 8 to 33')
             continue
         else: 
