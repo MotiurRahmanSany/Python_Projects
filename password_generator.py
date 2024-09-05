@@ -54,6 +54,7 @@ def doPermutation(s):
     return ''.join(charList)
 
 
+#! Generating passwords in different ways...
 
 def generateThePassword():
     defLen = getLength()
